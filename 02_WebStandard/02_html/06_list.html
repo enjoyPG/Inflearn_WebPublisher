@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>목록 ul, ol, li, dl, dt, dd</title>
+</head>
+<body>
+	<ul>
+		<li>Lorem ipsum dolor sit amet.</li>
+		<li>Lorem ipsum dolor sit amet.</li>
+		<li>Lorem ipsum dolor sit amet.</li>
+		<li>Lorem ipsum dolor sit amet.</li>
+	</ul>
+	<!-- type은 a, 가, i, 1, A사용가능  -->
+	<ol type="i">
+		<li>Lorem ipsum dolor sit amet.</li>
+		<li>Lorem ipsum dolor sit amet.</li>
+		<li>Lorem ipsum dolor sit amet.</li>
+		<li>Lorem ipsum dolor sit amet.</li>
+	</ol>
+	<hr>
+	<!-- 실수 많이 하는 상황 리스트 안에 리스트 -->
+	<li>
+		<a href="#">menu 1</a>
+		<ul>
+			<li><a href="#">submenu 1</a></li>
+			<li><a href="#">submenu 2</a></li>
+			<li><a href="#">submenu 3</a></li>
+			<li><a href="#">submenu 4</a></li>
+		</ul>
+	</li>
+
+	<hr>
+	<!-- dt는 definiton list으로 정의목록이라 함dt안에는 인라인 태그만 가능 -->
+	<dl>
+		<dt>
+			<strong>Lorem ipsum dolor sit amet.</strong>
+		</dt>
+		<dd>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, laboriosam, asperiores. Molestias, repellat, dolorem! Voluptates vitae voluptate, in non. Vero porro eius qui nihil, perspiciatis sunt vel. Suscipit cupiditate, placeat.
+		</dd>
+	</dl>
+	<!-- dd(description)는 dt(title)숫자 이상이어야함. dt가 더 많으면 X -->
+	<dl>
+		<dt><strong>Lorem ipsum dolor sit amet.</strong></dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dicta enim quia consectetur qui nesciunt amet, repudiandae obcaecati ipsam maxime, ut, iste doloribus laudantium velit incidunt, quaerat facilis ipsa vero.</dd>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque praesentium quis accusamus iure, natus distinctio consequuntur eum nam! Omnis nesciunt voluptate commodi eos ex exercitationem maxime, sed nostrum illum harum?</dd>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga similique nam dolore ab quas. Voluptates doloremque, assumenda culpa officiis corporis. Ratione, dolorem, corrupti. Magnam quia nesciunt nulla beatae. Adipisci, deserunt.</dd>
+	</dl>
+
+</body>
+</html>

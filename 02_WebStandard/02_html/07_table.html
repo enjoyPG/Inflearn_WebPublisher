@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>table</title>
+</head>
+<body>
+	<!-- 요즘은 테이블로 구조를 짜지 않는다. -->
+	<table border>
+		<tr>
+			<td>cell</td>
+			<td>cell</td>
+			<td>cell</td>
+			<td>cell</td>
+		</tr>
+		<tr>
+			<td>cell</td>
+			<td>cell</td>
+			<td>cell</td>
+			<td>cell</td>
+		</tr>
+	</table>
+
+	<table border width="100%">
+		<!-- caption이 표의 제목 -->
+		<caption>table caption</caption>
+		<!-- th는 칼럼이나 로우의 제목부분 scope속성(col, row, colgroup, rowgroup)을 무조건 설정해야 함. -->
+		<thead>
+			<tr>
+				<th scope="col">table header cell</th>
+				<th scope="col">table header cell</th>
+				<th scope="col">table header cell</th>
+				<th scope="col">table header cell</th>
+			</tr>
+		</thead>
+		<!-- 데이터 -->
+		<tbody>
+			<tr>
+				<td>cell</td>
+				<!-- rowspan은 셀 합치기 -->
+				<td rowspan="3">cell</td>
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+			<tr>
+				<td>cell</td>
+				<!-- <td>cell</td> -->
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+			<tr>
+				<td>cell</td>
+				<!-- <td>cell</td> -->
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>result</td>
+				<!-- colspan은 셀합치기 -->
+				<td colspan="3">result</td>
+				<!-- <td>result</td> -->
+				<!-- <td>result</td> -->
+			</tr>
+		</tfoot>
+	</table>
+
+</body>
+</html>
